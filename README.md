@@ -9,11 +9,17 @@ JBBQはAge, Disability status, Gender identity, Physical appearance, Sexual orie
 テンプレートは全カテゴリで計245件(Age: 72件，Disability: 52件，Gender: 41件，Physical: 52件，Sexual: 28件）あり、テンプレートに語彙を代入して生成された問題数は計8476件(Age: 4696件，Disability: 1344件，Gender: 652件，Physical: 1256件，Sexual: 528件）あります。
 
 ### データフォーマット
-データフォーマットは英語のBBQデータセットに準拠しています。
+データフォーマットは[BBQのデータフォーマット](https://github.com/nyu-mll/BBQ#models)に準拠しています。
 
-    - 入力： `context` + `question` 
-    - 出力： `ans0` or `ans1` or `ans2`
-    - [BBQのデータフォーマット](https://github.com/nyu-mll/BBQ#models)
+- `question_polarity`: 対象とする社会カテゴリに対する否定的な問題（neg）か中立的な問題（nonneg）か
+- `context_condition`: 文脈が曖昧のあるもの（ambig）か曖昧性を解消するもの（disambig）か
+- `answer_info` : 質問に対する選択肢の属性の情報
+- `additional_metadeta`: 対象とする社会カテゴリに関する情報と根拠となるURL
+- `context`: 文脈文
+- `question`: 質問文
+- `ans0`, `ans1`, `ans2` : 質問に対する選択肢
+- `label`: 質問の正解
+- `is_additional`: 1であれば，JBBQで追加したテンプレート
 
 英語のBBQデータセットの詳細は、以下の論文とリポジトリをご覧下さい。
 [BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/)
