@@ -6,7 +6,7 @@ repository for the Japanese Bias Benchmark for QA dataset (JBBQ).
 ## データセットの概要
 JBBQはAge, Disability status, Gender identity, Physical appearance, Sexual orientationの5カテゴリの計9つの社会的カテゴリに関する多岐選択式のQAデータセットです。
 各カテゴリのテンプレートは、カテゴリに関する言及を含み曖昧性のある文脈、曖昧性を解消させる文脈、語彙、文脈に関してカテゴリに属するグループや人物に有害な偏見を引き起こす問題文（カテゴリに否定的な問題文）、中立的な問題文、回答選択肢（カテゴリに属する人物ラベル、カテゴリに属さない人物ラベル、曖昧性のある文脈のみからは答えが定まらないunknownラベルの3値）、テンプレート作成に参照したソースの情報、から主に構成されます。
-テンプレートは全カテゴリで計245件(Age: 72件，Disability: 52件，Gender: 41件，Physical: 52件，Sexual: 28件）あり、テンプレートに語彙を代入して生成された問題数は計8476件(Age: 4696件，Disability: 1344件，Gender: 652件，Physical: 1256件，Sexual: 528件）あります。
+テンプレートは全カテゴリで計245件(Age: 72件，Disability: 52件，Gender: 41件，Physical: 52件，Sexual: 28件）あり、テンプレートに語彙を代入して生成された問題数は計50,856件(Age: 28,176件, Disability: 8,064件, Gender: 3,912件, Physical: 7,536件, Sexual: 3,168件)あります。
 
 ### データフォーマット
 データフォーマットは[BBQのデータフォーマット](https://github.com/nyu-mll/BBQ#models)に準拠しています。
