@@ -35,8 +35,8 @@ If you use this dataset in any published research, please cite the following:
       Arai, Hiromi",
     year={2024},
     eprint={XX},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
 }
 ```
 
