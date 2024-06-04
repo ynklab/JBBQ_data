@@ -1,33 +1,35 @@
 # JBBQ: 日本語社会性バイアスQAデータセット ver.1
 repository for the Japanese Bias Benchmark for QA dataset (JBBQ).
 
-本データセット(JBBQ ver.1)は英語の社会性バイアスQAデータセット[BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/)を日本語LLMの評価においても使用できるように日本語に翻訳し、日本特有の用語や文化的背景を考慮して修正したデータセットとなります。
+本データセット(JBBQ ver.1)は英語の社会性バイアスQAデータセット[BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/)の一部を日本語LLMの評価においても使用できるように日本語に翻訳し、日本特有の用語や文化的背景を考慮して修正したデータセットとなります。
 
 ## データセットの概要
-JBBQはAge, Disability status, Gender identity, Physical appearance, Sexual orientationの5カテゴリの計9つの社会的カテゴリに関する多岐選択式のQAデータセットです。
-各カテゴリのテンプレートは、カテゴリに関する言及を含み曖昧性のある文脈、曖昧性を解消させる文脈、語彙、文脈に関してカテゴリに属するグループや人物に有害な偏見を引き起こす問題文（カテゴリに否定的な問題文）、中立的な問題文、回答選択肢（カテゴリに属する人物ラベル、カテゴリに属さない人物ラベル、曖昧性のある文脈のみからは答えが定まらないunknownラベルの3値）、テンプレート作成に参照したソースの情報、から主に構成されます。
-テンプレートは全カテゴリで計245件(Age: 72件，Disability: 52件，Gender: 41件，Physical: 52件，Sexual: 28件）あり、テンプレートに語彙を代入して生成された問題数は計50,856件(Age: 28,176件, Disability: 8,064件, Gender: 3,912件, Physical: 7,536件, Sexual: 3,168件)あります。
+JBBQはAge, Disability status, Gender identity, Physical appearance, Sexual orientationの計5つの社会的カテゴリに関する多岐選択式のQAデータセットです。
+
+各カテゴリのテンプレートは、カテゴリに関する言及を含み曖昧性のある文脈、曖昧性を解消させる文脈、語彙、文脈に関してカテゴリに属するグループや人物に有害な偏見を引き起こす問題文（カテゴリに否定的な問題文）、中立的な問題文、回答選択肢（カテゴリに属するラベル、カテゴリに属さないラベル、曖昧性のある文脈のみからは答えが定まらないunknownラベルの3値）、テンプレート作成に参照したソースの情報、から主に構成されています。
+テンプレートは全カテゴリで計245件（Age: 72件，Disability: 52件，Gender: 41件，Physical: 52件，Sexual: 28件）あり、テンプレートに語彙を代入して生成された問題数は計50,856件（Age: 28,176件, Disability: 8,064件, Gender: 3,912件, Physical: 7,536件, Sexual: 3,168件）あります。
 
 ### データフォーマット
 データフォーマットは[BBQのデータフォーマット](https://github.com/nyu-mll/BBQ#models)に準拠しています。
 
-- `question_polarity`: 対象とする社会カテゴリに対する否定的な問題（neg）か中立的な問題（nonneg）か
+- `question_polarity`: 対象とするカテゴリに対する否定的な問題（neg）か中立的な問題（nonneg）か
 - `context_condition`: 文脈が曖昧のあるもの（ambig）か曖昧性を解消するもの（disambig）か
 - `answer_info` : 質問に対する選択肢の属性の情報
-- `additional_metadeta`: 対象とする社会カテゴリに関する情報と根拠となるURL
+- `additional_metadeta`: 対象とするカテゴリに関する情報と根拠となるURL
 - `context`: 文脈文
 - `question`: 質問文
 - `ans0`, `ans1`, `ans2` : 質問に対する選択肢
 - `label`: 質問の正解
 - `is_additional`: 1であれば，JBBQで追加したテンプレート
 
-英語のBBQデータセットの詳細は、以下の論文とリポジトリをご覧下さい。
+英語のBBQデータセットの詳細は、以下の論文とリポジトリをご参照ください。
+
 [BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/)
 Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, Samuel Bowman [github](https://github.com/nyu-mll/BBQ)
 
 ## ご利用上の注意
-データセットの利用をご希望の方は[こちらのフォーム]()に必要事項をご記入ください。データセットへのリンクをお送りします。この方法以外でのデータの再配布は禁止します。
-本データセットはその性質上不適切な表現を含みます。承諾の上、LLMの安全性・公平性向上のためにご使用ください。
+データセットの利用をご希望の方は[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link)に必要事項をご記入ください。データセットへのリンクをお送りします。この方法以外でのデータの再配布は禁止します。
+本データセットはその性質上不適切な表現を含みます。承諾の上、LLMの安全性・公平性向上のためにご利用ください。
 本データセットの利用においては、以下の参考文献をご参照ください。
 
 ## 参考文献
