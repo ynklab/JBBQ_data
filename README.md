@@ -10,6 +10,7 @@ JBBQはAge, Disability status, Gender identity, Physical appearance, Sexual orie
 
 ### データフォーマット
 データフォーマットは英語のBBQデータセットに準拠しています。
+
     - 入力： `context` + `question` 
     - 出力： `ans0` or `ans1` or `ans2`
     - [BBQのデータフォーマット](https://github.com/nyu-mll/BBQ#models)
