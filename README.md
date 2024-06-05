@@ -34,11 +34,11 @@ Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, J
 
 ## 参考文献
 1. Hitomi Yanaka, Namgi Han, Ryoma Kumon, Jie Lu, Masashi Takeshita, Ryo Sekizawa, Taisei Kato, Hiromi Arai. Analyzing Social Biases in Japanese Large Language Models. 
-    [[arXiv]](https://arxiv.org/), 2024.
+    [[arXiv]](https://arxiv.org/abs/2406.02050), 2024.
 2. 谷中瞳, 関澤瞭, 竹下昌志, 加藤大晴, Namgi Han, 荒井ひろみ. [日本語社会的バイアスQAデータセットの提案](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C7-4.pdf). 言語処理学会第30回年次大会, 2024.
    
 ```
-@misc{yanaka-han-2024,
+@article{yanaka-han-2024,
     title = "Analyzing Social Biases in Japanese Large Language Models",
     author = "Yanaka, Hitomi  and
       Han, Namgi and
@@ -49,9 +49,10 @@ Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, J
       Kato, Taisei and
       Arai, Hiromi",
     year={2024},
-    eprint={XX},
+    eprint={2406.02050},
     archivePrefix={arXiv},
-    primaryClass={cs.CL}
+    primaryClass={cs.CL},
+    journal={arxiv:2406.02050}
 }
 ```
 
