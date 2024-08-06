@@ -60,4 +60,4 @@ Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, J
 本データセットの制作者は、利用者が利用者自身又は第三者に与えた損害について、一切の責任を負わないものとする。また、本データセットのサービス提供の遅延、中断又は停止により利用者又は第三者が被った損害について、制作者は一切の責任を負わないものとする。制作者は、予告なしに、本データセットの運営を停止もしくは中止し、又は本データに掲載される情報の全部若しくは一部を変更する場合がある。
 
 ## License
-This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.txt).
+This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE).
