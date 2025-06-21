@@ -31,7 +31,7 @@ Our data format is based on [BBQ](https://github.com/nyu-mll/BBQ#models).
 - `label`: gold answer
 - `is_additional`: 1 indicates an additional example in JBBQ
 
-See below for details of the English BBQ dataset:
+See also the details of the English BBQ dataset:
 [BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/)
 Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, Samuel Bowman [github](https://github.com/nyu-mll/BBQ)
 
