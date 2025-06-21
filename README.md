@@ -1,7 +1,7 @@
 # Repository for the Japanese Bias Benchmark for QA dataset (JBBQ)
 JBBQ: 日本語社会性バイアスQAデータセット ver.1
 
-This dataset (JBBQ ver.1) is a Japanese Bias Benchmark for QA dataset based on the English social bias QA dataset [BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/) (https://aclanthology.org/2022.findings-acl.165/).
+This dataset (JBBQ ver.1) is a Japanese Bias Benchmark for QA dataset based on the English social bias QA dataset [BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/).
 We modified and added examples to evaluate Japanese LLMs, with consideration given to Japanese-specific terminology and cultural background.
 
 本データセット(JBBQ ver.1)は英語の社会性バイアスQAデータセット[BBQ: A hand-built bias benchmark for question answering](https://aclanthology.org/2022.findings-acl.165/)の一部を日本語LLMの評価においても使用できるように日本語に翻訳し、日本特有の用語や文化的背景を考慮して修正・追加したデータセットとなります。
