@@ -36,7 +36,7 @@ See also the details of the English BBQ dataset:
 Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, Samuel Bowman [github](https://github.com/nyu-mll/BBQ)
 
 ## How to download the JBBQ dataset
-If you would like to use the dataset, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link). We will send you a link to the dataset. Redistribution of the data by any other means is prohibited. 
+If you would like to use the dataset, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link). We will send you a link to the dataset. Redistribution of the data is prohibited. 
 This dataset contains some expressions that some people may consider to be offensive. Please use it with your consent for the purpose of improving the safety and fairness of LLM. Please refer to the following references when using this dataset.
 
 データセットの利用をご希望の方は[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link)に必要事項をご記入ください。データセットへのリンクをお送りします。データの再配布は禁止します。
