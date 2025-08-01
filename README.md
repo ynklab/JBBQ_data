@@ -73,5 +73,4 @@ The creator of this data shall not be responsible for any damage to the user or 
 
 本データの制作者は、利用者が利用者自身又は第三者に与えた損害について、一切の責任を負わないものとする。また、本データのサービス提供の遅延、中断又は停止により利用者又は第三者が被った損害について、制作者は一切の責任を負わないものとする。制作者は、予告なしに、本データの運営を停止若しくは中止し、又は本データに掲載される情報の全部若しくは一部を変更する場合がある。
 
-## License
-This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE).
+
