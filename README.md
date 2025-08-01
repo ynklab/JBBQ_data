@@ -39,7 +39,7 @@ Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, J
 If you would like to use the dataset, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link). We will send you a link to the dataset. Redistribution of the data by any other means is prohibited. 
 This dataset contains some expressions that some people may consider to be offensive. Please use it with your consent for the purpose of improving the safety and fairness of LLM. Please refer to the following references when using this dataset.
 
-データセットの利用をご希望の方は[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link)に必要事項をご記入ください。データセットへのリンクをお送りします。この方法以外でのデータの再配布は禁止します。
+データセットの利用をご希望の方は[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link)に必要事項をご記入ください。データセットへのリンクをお送りします。データの再配布は禁止します。
 本データセットはその性質上不適切な表現を含みます。承諾の上、LLMの安全性・公平性向上のためにご利用ください。
 本データセットの利用においては、以下の参考文献をご参照ください。
 
