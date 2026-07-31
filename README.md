@@ -41,11 +41,12 @@ This dataset contains some expressions that some people may consider to be offen
 
 データセットの利用をご希望の方は[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdl0fl5s08K9HmoxyQEnHuD519_8HGTwqy-slUEVXrFilQPOw/viewform?usp=sf_link)に必要事項をご記入ください。データセットへのリンクをお送りします。データの再配布は禁止します。
 本データセットはその性質上不適切な表現を含みます。承諾の上、LLMの安全性・公平性向上のためにご利用ください。
+本データセットは[huggingface dataset](https://huggingface.co/datasets/namgiH/JBBQ)からも利用可能です。
 本データセットの利用においては、以下の参考文献をご参照ください。
 
 ## References
 
-1. Hitomi Yanaka, Namgi Han, Ryoma Kumon, Jie Lu, Masashi Takeshita, Ryo Sekizawa, Taisei Kato, Hiromi Arai. JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models, Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP2025) at ACL2025, [[arXiv]](https://arxiv.org/abs/2406.02050), 2025.
+1. Hitomi Yanaka, Namgi Han, Ryoma Kumon, Jie Lu, Masashi Takeshita, Ryo Sekizawa, Taisei Kato, Hiromi Arai. [JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models](https://aclanthology.org/2025.gebnlp-1.1/), Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP2025) at ACL2025, [[arXiv]](https://arxiv.org/abs/2406.02050), 2025.
 2. 谷中瞳, 関澤瞭, 竹下昌志, 加藤大晴, Namgi Han, 荒井ひろみ. [日本語社会的バイアスQAデータセットの提案](https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/C7-4.pdf). 言語処理学会第30回年次大会, 2024.
    
 ```
